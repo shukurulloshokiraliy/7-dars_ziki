@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  },
+  "scripts": {
+    "ziki": "npx @tailwindcss/cli -i ./css/input.css -o ./src/output.css --watch"
+  }
+}
