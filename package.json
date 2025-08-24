@@ -4,6 +4,9 @@
     "tailwindcss": "^4.1.12"
   },
   "scripts": {
-    "ziki": "npx @tailwindcss/cli -i ./css/input.css -o ./src/output.css --watch"
+    "ziki": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.50"
   }
 }
